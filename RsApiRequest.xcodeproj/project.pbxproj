@@ -10,6 +10,7 @@
 		58EF409E233A0AF0008BC532 /* RsApiRequest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58EF4094233A0AF0008BC532 /* RsApiRequest.framework */; };
 		58EF40A3233A0AF0008BC532 /* RsApiRequestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58EF40A2233A0AF0008BC532 /* RsApiRequestTests.swift */; };
 		58EF40A5233A0AF0008BC532 /* RsApiRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 58EF4097233A0AF0008BC532 /* RsApiRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		58EF40AF233A0AFE008BC532 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58EF40AE233A0AFE008BC532 /* Request.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +30,7 @@
 		58EF409D233A0AF0008BC532 /* RsApiRequestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RsApiRequestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		58EF40A2233A0AF0008BC532 /* RsApiRequestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RsApiRequestTests.swift; sourceTree = "<group>"; };
 		58EF40A4233A0AF0008BC532 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		58EF40AE233A0AFE008BC532 /* Request.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +73,7 @@
 		58EF4096233A0AF0008BC532 /* RsApiRequest */ = {
 			isa = PBXGroup;
 			children = (
+				58EF40AE233A0AFE008BC532 /* Request.swift */,
 				58EF4097233A0AF0008BC532 /* RsApiRequest.h */,
 				58EF4098233A0AF0008BC532 /* Info.plist */,
 			);
@@ -194,6 +197,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				58EF40AF233A0AFE008BC532 /* Request.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -389,6 +393,7 @@
 		58EF40AC233A0AF0008BC532 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = RsApiRequestTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -406,6 +411,7 @@
 		58EF40AD233A0AF0008BC532 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = RsApiRequestTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
